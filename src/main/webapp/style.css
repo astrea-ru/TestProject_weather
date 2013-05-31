@@ -1,0 +1,45 @@
+body {
+    font-family:     Verdana, Geneva, Arial, sans-serif;
+    font-size:       small;
+    background-color: #6495ED;
+
+}
+h1 {
+    font-weight:     normal;
+    font-size:       200%;
+}
+
+.weather_data{
+    margin-left:      20px;
+    margin-right:     20px;
+    border:			thin solid black;
+    border-spacing:	0px;
+    border-collapse:	collapse;
+    caption-side:		bottom;
+    margin: auto;
+}
+td, th{
+    border:			thin dotted gray;
+    padding:			5px;
+}
+
+table.search_panel td,th{
+    border-color: transparent;
+    font-size: small;
+}
+
+.sun{
+    float:			left;
+}
+.night{
+    float:			right;
+}
+
+#allcontent{
+    width:			800px;
+    padding-top:		5px;
+    padding-bottom:	5px;
+    background-color:	#ADD8E6;
+    margin-left:		auto;
+    margin-right:		auto;
+}
